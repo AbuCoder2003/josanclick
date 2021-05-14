@@ -1,0 +1,510 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+.baner{
+
+    background-image: url(./249.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+   
+.header{
+    position: fixed;
+    border-bottom: solid rgb(226, 220, 220) 0.01em;
+    width: 100%;
+    background-color: rgb(102, 96, 96);
+    z-index: 5;
+    opacity: 0.7;
+}
+
+.logo{
+    display: inline-block;  
+   margin-left: 29px;
+   margin-top: 19px;
+}
+.logo img{
+    width: 200px;
+    height: 50px;
+    
+
+}
+       
+.section-item{
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px;
+    left: 12%;
+    top: -17px;
+    
+
+}
+.nav{
+    position: relative;
+    display: inline-block;
+    top: -15%;
+
+}
+.section-item a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+ .chiziq{
+    border-bottom: rgb(226, 220, 220) solid 3px;
+    width: 65px;
+    visibility: hidden;
+    transition: 0.3s;
+ 
+   
+    
+    
+}
+
+.section-item:hover .chiziq{
+    visibility: visible;
+    width: 65px;
+    transition: width 0.3s;
+}
+
+.chiziq1{
+    border-bottom: rgb(226, 220, 220) solid 3px;
+    width: 95px;
+    visibility: hidden;
+    transition: 0.3s;      
+}
+
+.section-item:hover .chiziq1{
+    visibility: visible;
+    width: 95px;
+    transition: width 0.3s;
+}   
+.icon{
+    position: relative;
+    display: inline-block;
+    left: 10%;
+    top: -22px;
+}
+.icon i{
+  font-size: 20px;
+  padding: 15px;
+color: rgb(226, 220, 220);
+transition: 0.5s;
+}
+.icon i:hover{
+    font-size: 33px;
+   transition: 0.5s;
+  color: rgb(32, 8, 247);
+  }
+.text{
+    position: relative;
+   top: 72%;
+    text-align: center;
+   
+}
+  .text .ppp{
+
+      font-size: 29px;
+      color: rgb(226, 220, 220);
+      font-family:"Poiret One";
+  }
+  .text .pp{
+    transition: 0.5s;
+    font-size: 89px;
+    color: rgb(226, 220, 220);
+    font-family:"Poiret One";
+}
+
+/* ikkinchi */
+
+.about{
+    position: relative;
+    top: 40px;
+}
+.Lorem{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    left: 44px;
+
+}
+.Lorem img{
+    width: 400px;
+    height: 500px;
+}
+
+.Lorem p{
+    width: 350px;
+    height: 100px;
+  
+
+}
+.click{
+font-size: 45px;
+margin-bottom: 120px;
+font-family: SimSun;
+margin-left: 20px;
+}
+.dolor{
+    margin-bottom: 60px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.fafas i{
+   position:relative;
+    font-size: 140px;
+  margin-left: 70px;
+}
+ 
+.yes img{
+    width: 250px;
+    height: 170px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+.ispum{
+    font-size: 24px;
+    font-family:Century Gothic;
+    margin-left: 50px;
+    margin-bottom: 130px;
+}
+.buttom{
+    font-size: 18px;
+   color: rgb(41, 38, 38);
+    background-color: rgb(245, 240, 240);
+    width: 120px;
+    height: 60px;
+    margin-left: 150px;
+    transition: 0.5s;
+    border-radius: 25%;
+    
+}
+.buttom:hover{
+    background-color:rgb(46, 44, 41) ;
+    color: rgb(8, 235, 252);
+    border-radius: 25%;
+    transition: 0.5s;
+}
+.about{
+    position: relative;
+    top: 80px;
+}
+
+.imput{
+    position: relative;
+    margin-top: 180px;
+}   
+ 
+.image{
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+}
+.image img{
+    width: 447px;
+    height: 600px; 
+}
+
+
+.container{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 130px;
+    }
+
+.toto img{
+   
+    width: 350px;
+    height: 250px;
+}
+.totam{
+    width: 330px;
+    height: 230px;
+    padding: 30px; 
+    font-family:Century Gothic ;
+    margin-left: -18px;
+}
+
+.toto{
+    display: inline-block;
+}
+
+.toto p{
+    margin-top: 24px;
+    font-size: 30px;
+    font-family:Century Gothic ;
+}
+
+.qora-fon{
+    background-color: rgb(27, 25, 25);
+    height: 85vh;
+}
+.qora-fon2{
+    position: relative;
+    top: 18%;
+}
+.qora-fon h1{
+    font-size: 50px;
+    font-family:Century Gothic;
+    color: rgb(226, 220, 220);
+    margin-left: 520px;
+    margin-top: 30px;  
+}
+.qora-fon p{
+    color: rgb(226, 220, 220);
+    font-size: 20px;
+    font-family:Century Gothic;
+    text-align: center;
+    width: 800px;
+    margin-left: 280px;
+    margin-top: 70px;   
+}
+.qizcha{
+    margin-left: 47%;
+    margin-top: 70px;
+    
+}
+.qizcha p{
+    margin-top: 12px;
+    margin-left: -370px;
+    color: rgb(226, 220, 220);
+    font-size: 12px;
+}
+.selection{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 90px;
+    
+}
+
+
+.selection-items{
+    position: relative;
+   border: solid gray 1px;
+   width: 350px;
+   height: 490px;
+}
+.selection-items:hover{
+    position: relative;
+   border: solid gray 1px;
+   
+   height: 490px;
+   box-shadow: 5px 5px 10px 1px;
+   
+   transition-timing-function: cubic-bezier(.10,10.10,.10,.10);
+}
+.chooose{
+    
+    font-size: 50px;
+    font-family:"Poiret One";
+    color:rgb(172, 168, 168);
+   text-align: center;
+   margin-top: 100px;
+}
+.selection-item{
+    font-size: 20px;
+    font-family:initial;
+    background-color: black;
+    color:rgb(226, 220, 220) ;
+    border: 1px solid black;
+    width: 134px;
+    height: 37px;
+    border-radius: 27px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.selection-item h2{
+    margin-top: 8px;
+    font-size: 17px;
+}
+.selection-items h1{
+    font-size: 25px;
+    color: rgb(46, 43, 43);
+    margin-left: 105px;
+    margin-top: 18px;
+}
+.sed{
+    width: 250px;
+    margin-top: 45px;   
+}
+.naturs{
+    font-size: 20px;
+    font-family:"Poiret One";
+   padding: 7px;
+    text-align: center;   
+}
+.selection-items a{
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: solid black 2px;
+    padding: 12px 70px;
+    font-family:"Poiret One";
+    font-weight: bold;
+    margin-left: 11px;
+    top: 11%;
+    transition: 0.2s;
+}
+.selection-items a:hover{
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(226, 220, 220);
+    background-color: rgb(39, 37, 37);
+    border: solid black 2px;
+    
+   
+    transition: 0.2s;
+}
+.horr{
+margin-top: 20px;
+}
+.selection-items{
+   margin-top: 50%;
+   width: 25%;
+   margin: 3%;
+    display: inline-block;
+}
+.mayami{
+    position: relative;
+    margin-top: 150px;
+    width: 100%;
+}
+.mayami img{
+    width: 270px;
+    height: 270px;
+    display: inline-block;
+    margin: -2px;  
+}
+.gray{
+    background-color: rgb(53, 53, 53);
+    height: 650px;
+    margin: -2px;
+    width: 100%;
+}
+.strett1{
+    width: 350px;
+    display: inline-block;
+    font-size: 17px;
+    font-family:"Poiret One";
+    color:rgb(226, 220, 220);
+    margin-top: 200px;
+    margin-left: 120px;
+    position: relative;
+}
+.fabi i{
+font-size: 20px;
+padding: 5px;
+margin-top: 20px;
+transition: 0.5s;
+}
+.fabi i:hover{
+    font-size: 25px;
+    color: blue;
+    transition: 0.5s;
+}
+.strett1 p{
+margin-top: 19px;
+}
+.strett2{
+    left: 1;
+    position: relative;
+    bottom: 0%;
+    display: inline-block;   
+}
+.strett2 h1{
+    color:rgb(226, 220, 220) ;
+    font-size: 25px;
+    font-family:"Poiret One";
+    margin-top: -100px;  
+}
+.strett2 p{
+    color:rgb(226, 220, 220) ;
+    font-size: 17px;
+    padding: 12px;
+    font-family:"Poiret One" ;
+}
+.strett3{
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    left: 9%;
+    top: 4%;
+}
+.strett3 li{
+   padding: 8px;
+   list-style-type: none;
+}
+.strett3 h1{
+    color:rgb(226, 220, 220) ;
+    font-family:"Poiret One" ;
+    font-size: 25px;
+}
+.strett3 a{
+    color: rgb(226, 220, 220);
+    font-size: 17px;
+    font-family:"Poiret One" ;
+    text-decoration: none;
+}
+.strett4{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    left: 13%;
+    bottom: 8%;
+}
+.strett4 input{
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    background-color: rgb(65, 64, 64);
+    
+}
+.strett4 li{
+    list-style-type: none;
+    padding: 18px;
+}
+.strett4 h1{
+    font-size: 25px; 
+    font-family:"Poiret One";
+    color:rgb(226, 220, 220) ;
+}
+.strett4 button{
+    width: 255px;
+    height: 45px;
+    font-size: 17px;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    
+}
+.hr{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    color: rgb(226, 220, 220);
+}
+.reserved{
+    position: relative;
+    font-size: 21px;
+    font-family:"Poiret One" ;
+    color:rgb(226, 220, 220) ;
+    margin-left: 355px;
+}
